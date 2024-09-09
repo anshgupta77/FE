@@ -14,7 +14,7 @@ import { useState } from "react";
 import CardDetail from "./components/CardDetail";
 
 function App() {
-  const [isUserLoggedIn, setIsUserLoggedIn] = useState(true);
+  const [isUserLoggedIn, setIsUserLoggedIn] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   const setLoginStatus = (status) => {

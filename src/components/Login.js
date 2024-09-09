@@ -68,7 +68,7 @@ const Login = () => {
               type="submit"
               className="w-full py-3 bg-gradient-to-r from-blue-500 to-teal-500 text-white font-semibold rounded-lg shadow-lg hover:from-blue-600 hover:to-teal-600 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-500"
             >
-              Login
+              Submit
             </button>
           </div>
         </form>
