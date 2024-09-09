@@ -73,7 +73,7 @@ const ProgressChart = ({ completed, inProgress, todo }) => {
 
   return (
     <div style={{ width: "100vh" }}>
-      <div style={{ width: "100%", height: "400px", marginLeft: "240px" }}>
+      <div style={{ width: "100%", height: "600px", marginLeft: "360px" }}>
         {" "}
         {/* Adjusted the width and height */}
         <h3>Task Progress Bar Chart</h3>

@@ -50,7 +50,7 @@ function App() {
       ) : (
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="/login" element={<Login />} />
+          <Route path="/login" element={<Login  setLoginStatus={setLoginStatus}/>} />
           <Route
             path="/signup"
             element={<SignUp setLoginStatus={setLoginStatus} />}

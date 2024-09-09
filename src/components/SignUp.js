@@ -32,7 +32,7 @@ const SignUp = ({ setLoginStatus }) => {
     }
 
     try {
-      const response = await fetch("https://hb-y6dh.onrender.com/users", {
+      const response = await fetch("https://hb-y6dh.onrender.com/auth/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -42,7 +42,7 @@ const SignUp = ({ setLoginStatus }) => {
 
       const result = await response.json();
 
-      if (response.ok) {
+      if (response) {
         setSuccess("User signed up successfully!");
         setError("");
         setFormData({ name: "", email: "", password: "" });

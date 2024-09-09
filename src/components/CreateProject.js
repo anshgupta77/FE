@@ -99,7 +99,7 @@ const CreateProject = () => {
               <option value="" disabled hidden>
                 Select Status
               </option>
-              <option value="notStarted">To-do</option>
+              <option value="todo">To-do</option>
               <option value="inProgress">In Progress</option>
               <option value="completed">Completed</option>
             </select>
